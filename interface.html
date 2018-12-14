@@ -1,0 +1,56 @@
+
+<!--    login and signup page starts     -->
+
+<html>
+  <head>
+        <meta charset="UTF-8">
+    <title> STUDENT </title>
+	<link type="text/css" href="interface.css" rel="stylesheet">
+  </head>
+      <body>			  
+<!-- HEADER-->
+		     <div class="header" id="header_a">
+ 		          
+                   <h1 class="header_name">IET LUCKNOW</h1>
+                    <div class="sign_in" >
+                         <form name="log_in" method="post" action="">
+
+                             PHONE: <input type="text" name="email" placeholder="enter your phone" required autocomplete="on"> </input>&nbsp;&nbsp;
+                             PASSWORD: <input type="password" name="password" placeholder="enter your password" > </input>&nbsp;
+                             <button  name="log_in" > LOGIN </button>
+                         </form>
+                    </div>
+			 </div>
+             <div class="line">   </div>        
+<!--MIDDLE LEFT-->
+             <div class="middle_left" >
+                   <img class="image_iet"src="iet.jpg" > </img>
+			 </div>
+<!--MIDDLE RIGHT SIGN UP -->
+             <div class="middle_right" >
+                    <div class="middle_right_text" id="sign_up_font" > <h1>SIGN UP NOW <h1></div>
+                    <div class="middle_right_form" >
+                         <form name="sign_up" id="form2" method="post" action="" enctype="multipart/form-data" >
+
+                             <input type="text" name="Phone_Number" placeholder="&nbsp;&nbsp;&nbsp;Phone Number" autofocus required autocomplete="on" > </input>  <br><br>
+                             <input type="text" name="first_name" placeholder="&nbsp;&nbsp;&nbsp;First Name" autofocus required autocomplete="on"> </input> <br><br>
+                             <input type="text" name="Surname" placeholder="&nbsp;&nbsp;&nbsp;Surname" autofocus required autocomplete="on"> </input>  <br><br>
+                             <input type="password" name="password" placeholder="&nbsp;&nbsp;&nbsp;New Password" autofocus required > </input> <br><br>
+                             <button  name="sign_up_form"> SIGN UP </button>
+
+                         </form>
+                    </div>
+                     <?php include("insert_user.php");?>   
+			 </div>
+             <div class="line">   </div> 
+<!--BOTTOM -->
+          <div class="footer">
+
+          </div>
+		  
+	   </body>
+</html>	
+
+
+
+<!--   login and signup page ends    -->
