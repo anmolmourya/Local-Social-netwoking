@@ -1,0 +1,249 @@
+.header{
+	background-color:cyan;
+	width:100%;
+	height:50px;
+}
+
+.header_name{
+	color:white;
+	background-color:blue;
+	width:25%;
+	height:50px;
+	
+	text-align:center;
+	line-height:50px;
+}
+
+.header_search{
+	color:white;
+	background-color:blue;
+	margin-left:25%;
+	margin-top:-50px;
+	width:30%;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_picture{
+	color:white;
+	background-color:blue;
+	width:5%;
+	height:50px;
+	margin-left:55%;
+	margin-top:-50px;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_home{
+	color:white;
+	background-color:blue;
+	width:7%;
+	height:50px;
+	margin-left:60%;
+	margin-top:-50;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+}
+
+.header_profile{
+	color:white;
+	background-color:blue;
+	width:7%;
+	height:50px;
+	margin-left:67%;
+	margin-top:-50;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_logout{
+	color:white;
+	background-color:blue;
+	width:7%;
+	height:50px;
+	margin-left:74%;
+	margin-top:-50;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_logo{
+	color:white;
+	background-color:blue;
+	width:11%;
+	height:50px;
+	margin-left:81%;
+	margin-top:-50;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_student_name{
+	color:white;
+	background-color:blue;
+	width:8%;
+	height:50px;
+	margin-left:92%;
+	margin-top:-50;
+	text-align:center;
+	line-height:50px;
+}
+
+.header_bottom_line{
+	width:100%;
+	height:2px;
+	background-color:black;
+}
+
+.header_logout:hover{
+	background-color:#0000cc;
+}
+.header_profile:hover{
+	background-color:#0000cc;
+}
+.header_home:hover{
+	background-color:#0000cc;
+}
+
+.input_bar{
+	width:220px;
+	height:30px;
+}
+.input_button{
+	width:80px;
+	height:30px;
+}
+
+
+.aa{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile_left{
+	width:45%;
+	height:600px;
+	background-color:cyan;
+}
+
+.profile_picture{
+	width:30%;
+	height:180px;
+	border:2px solid white;
+	background-color:blue;
+	margin-top:10px;
+	margin-left:35%;
+}
+.profile_picture_image{
+	width:100%;
+	height:100%;
+	
+	
+}
+.profile_name{
+	width:60%;
+	height:40px;
+	background-color:blue;
+	margin-top:0px;
+	margin-left:20%;
+	text-align:center;
+	line-height:40px;
+	text-transform: uppercase;
+}
+.profile_email{
+	width:80%;
+	height:40px;
+	background-color:blue;
+	margin-top:10px;
+	text-align:center;
+	margin-left:10%;
+	line-height:40px;
+	text-transform: uppercase;
+	font-family: "Brush Script MT", cursive;
+	
+}
+.profile_data{
+	width:70%;
+	height:250px;
+	background-color:blue;
+	margin-top:10px;
+	margin-left:15%;
+	text-align:left;
+	padding-top:20px;
+}
+
+
+
+
+
+
+
+.profile_right{
+	width:55%;
+	height:600px;
+	background-color:white;
+	margin-left:45%;
+	margin-top:-620px;
+}
+
+.edit_your_profile{
+	height:60px;
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+	font-family:Cursive;
+	background-color:white;
+	line-height:60px;
+
+}
+.edit_data_profile{
+	height:450px;
+	width:90%;
+	margin-left:5%;
+	margin-top:10px;
+	text-align:center;
+	font-family:Cursive;
+	background-color:white;
+}
+#form input
+{
+width:220px;
+height:35px;
+border-radius:4px;
+}
+#form select{
+	width:220px;
+	height:40px;
+	border-radius:4px;
+}
+#form button{
+	width:200px;
+	height:40px;
+	border-radius:4px;
+}
+#form button:hover{
+	background-color:blue;
+}
